@@ -56,9 +56,6 @@ $ git clone https://github.com/PauloFRPDev/holidayextras-developer-web && cd hol
 # Install dependencies
 $ npm install OR yarn
 
-# Run migrations
-$ npm run typeorm migration:run OR yarn typeorm migration:run
-
 # Run the web client on port 3000
 $ npm run start OR yarn start
 ```
