@@ -3,17 +3,29 @@ import styled from "styled-components";
 
 export const Container = styled.form`
   width: 100%;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1.2rem;
 
-  > label {
+  > div {
     width: 100%;
-    color: #fff;
-    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    > span {
+      flex: 1;
+      text-align: center;
+      color: #fddc05;
+    }
+
+    > label {
+      color: #fff;
+      font-size: 0.9rem;
+    }
   }
 
   input {
@@ -33,15 +45,19 @@ export const Container = styled.form`
   button {
     width: 100%;
     margin-top: 1rem;
-    background: #FDDC05;
+    background: #fddc05;
     padding: 0.7rem 2rem;
-    border: 1px solid #FDDC05;
+    border: 1px solid #fddc05;
     border-radius: 0.5rem;
     font-weight: 500;
     transition: 0.3s ease;
 
     &:hover {
-      background: ${darken(0.1, '#FDDC05')}
+      background: ${darken(0.1, "#FDDC05")};
     }
+  }
+
+  > span {
+    color: #fddc05;
   }
 `;

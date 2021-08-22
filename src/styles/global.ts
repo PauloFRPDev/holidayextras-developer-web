@@ -11,6 +11,10 @@ export default createGlobalStyle`
     height: 100%;
   }
 
+  body {
+    background: #F0F0F0;
+  }
+
   button {
     cursor: pointer;
   }

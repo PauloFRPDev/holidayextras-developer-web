@@ -3,16 +3,16 @@ import { Layout } from "../../components/Layout";
 
 import { Content } from "./styles";
 
-function Home() {
+function UpdateUser() {
   return (
     <Layout>
       <Content>
-        <h2>Create User</h2>
+        <h2>Update User</h2>
 
-        <Form type="create" />
+        <Form type="update" />
       </Content>
     </Layout>
   );
 }
 
-export { Home };
+export { UpdateUser };
